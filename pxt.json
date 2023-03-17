@@ -1,0 +1,28 @@
+{
+    "name": "cBit-IR V2",
+    "version": "1.2.0",
+    "description": "",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "cBit-IRV2.ts",
+        "enums.d.ts",
+        "maqueenIR.cpp",
+        "ReceiverIR.cpp",
+        "NecIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "shims.d.ts",
+        "_locales/zh-cn/strings.json",
+        "_locales/zh-tw/strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
